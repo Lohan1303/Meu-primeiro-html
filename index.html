@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro html</title>
+
+    <style>
+            code {
+      font-size: 16px; /* Ajuste o tamanho da fonte conforme necessário */
+    }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro html</h1> <hr>
+    <small>Por: Lohan Batista Moreira</small> <br>
+    <small>Data de Inicío: 04/01/2024</small>
+
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#O-que-e">O que é?</a></li>
+        <li><a href="#Tags">Tags</a></li>
+        <li><a href="#Entendo-comunicação-Client-Server">Entendo comunicação Client x Server</a></li>
+        <li><a href="#referencias">Referências</a></li>
+    </ul>
+
+    <h3 id ="O-que-e">O que é?</h3>
+    <p> HTML, que significa "Hypertext Markup Language" (Linguagem de Marcação de Hipertexto),
+        é uma linguagem de marcação utilizada para criar a estrutura básica de páginas web.
+        Desenvolvido pelo World Wide Web Consortium (W3C), HTML permite que os desenvolvedores
+        web definam e estruturem o conteúdo de uma página, indicando diferentes tipos de 
+        elementos e suas relações.</p>
+
+    <h3 id = "Tags">Tags</h3>
+    <p> As tags <u>HTML</u> são elementos fundamentais na construção de páginas web.
+        Elas são usadas para estruturar e organizar o conteúdo de uma página,
+        além de fornecer informações sobre o tipo de conteúdo presente. Cada tag
+        <u>HTML</u> é envolvida por colchetes angulares (< e >), e muitas delas possuem
+        uma tag de abertura e uma correspondente tag de fechamento, que é identificada
+        pelo mesmo nome precedido por uma barra (</ e >). No entanto, algumas tags, como
+        as de imagem, não possuem uma tag de fechamento.</p>
+
+    <p>Aqui estão algumas tags <mark> HTML</mark> comuns e suas funções:</p>
+    <ol>
+        <li>
+            <strong><code><</code><code>!DOCTYPE html</code><code>></code></strong>: Define a versão do HTML
+             que está sendo utilizada. Geralmente, é a primeira linha de um documento HTML.
+        </li>
+        <li>
+            <strong><code><</code><code>html</code><code>></code></strong>: Define o início e o fim do documento HTML.
+        </li>
+        <li>
+            <strong><code><</code><code>head</code><code>></code></strong>:Contém informações sobre o documento,
+             como o título da página, meta informações, ligação com folhas de estilo (CSS), e scripts.
+        </li>
+        <li>
+            <strong><code><</code><code>title</code><code>></code></strong>:Define o título da página, que é exibido
+             na barra de título do navegador.
+        </li><li>
+            <strong><code><</code><code>body</code><code>></code></strong>: Contém o conteúdo principal da página, 
+            como texto, imagens, links, formulários, etc.
+        </li><li>
+            <strong><code><</code><code>h1,2,3,4,5 e 6</code><code>></code></strong>: São cabeçalhos de diferentes níveis,
+             indicando a importância do texto. <code><</code><code>h1</code><code>></code>: 
+            é o mais importante e <code><</code><code>h6</code><code>></code>: é o menos. Eles são frequentemente 
+            usados para títulos e subtítulos
+        </li><li>
+            <strong><code><</code><code>p</code><code>></code></strong>: Define um parágrafo de texto.
+        </li><li>
+            <strong><code><</code><code>a</code><code>></code></strong>: Cria um link para outra página ou recurso. O atributo <i>href</i>
+             especifica o destino do link.
+        </li><li>
+            <strong><code><</code><code>img</code><code>></code></strong>: Insere uma imagem na página. O atributo <i>src</i>
+             especifica o caminho da imagem.
+        </li>
+        </li><li>
+            <strong><code><</code><code>ul</code><code>></code></strong>: Usadas para criar listas não ordenadas. 
+        </li>
+        </li><li>
+            <strong><code><</code><code>ol</code><code>></code></strong>: Usadas para criar listas ordenadas. 
+        </li>
+        </li><li>
+            <strong><code><</code><code>li</code><code>></code></strong>: É usado para cada item da lista.
+        </li>
+        </li><li>
+            <strong><code><</code><code>div</code><code>></code></strong>: Define uma divisão ou seção genérica em um documento.
+             É frequentemente usado com CSS para aplicar estilos ou para agrupar elementos relacionados.
+            </li>
+        </li><li>
+            <strong><code><</code><code>span</code><code>></code></strong>: Semelhante ao <code><</code><code>div</code><code>></code>,
+             mas é usado para aplicar estilos a partes específicas de texto.
+        </li>
+        </li><li>
+            <strong><code><</code><code>form</code><code>></code></strong>: Define um formulário que pode conter elementos como
+             campos de texto, botões, caixas de seleção, entre outros.
+        </li>
+        </li><li>
+            <strong><code><</code><code>input</code><code>></code></strong>: Usado dentro de um formulário para criar campos
+             interativos, como campos de texto, botões de rádio, checkboxes, etc.
+        </li>
+        </li><li>
+            <strong><code><</code><code>br</code><code>></code></strong>: Cria uma quebra de linha.
+        </li>
+    </ol>
+
+    <h3 id = "Entendo-comunicação-Client-Server">Entendo comunicação Client x Server</h3>
+    <p> A comunicação entre cliente (client) e servidor (server) em um contexto
+        de desenvolvimento web é essencial para a interação dinâmica entre os usuários
+        e os recursos armazenados no servidor. Aqui está uma visão geral básica de como
+        a comunicação cliente-servidor funciona em um ambiente web:</p>
+    <ol>
+        <li><strong>Requisição do Cliente (Client Request):</strong>
+            O processo começa quando um cliente (geralmente um navegador da web) faz
+             uma requisição para acessar uma página ou recurso específico. Isso é feito
+              através de uma solicitação HTTP (Hypertext Transfer Protocol).
+        </li>
+        <li><strong>Envio da Requisição ao Servidor:</strong>
+            A requisição do cliente é enviada para o servidor web correspondente.
+             A requisição contém informações como o método da requisição (GET, POST, etc.),
+              o URL do recurso desejado e outros cabeçalhos HTTP.
+        </li>
+        <li><strong>Processamento da Requisição no Servidor:</strong>
+            O servidor recebe a requisição e executa o processamento necessário 
+            para atender à solicitação do cliente. Isso pode envolver acessar bancos 
+            de dados, executar lógica de negócios, ou recuperar arquivos estáticos.
+        </li>
+        <li><strong>Geração da Resposta pelo Servidor:</strong>Com base na requisição do cliente,
+             o servidor gera uma resposta. Essa resposta geralmente é composta por um código de
+              status HTTP, cabeçalhos e o corpo da resposta, que contém os dados solicitados ou 
+              informações sobre o processamento da requisição.
+        </li>
+        <li><strong>Envio da Resposta ao Cliente:</strong>
+            A resposta gerada pelo servidor é enviada de volta ao cliente.
+             Isso ocorre através do protocolo HTTP. O navegador do cliente 
+             interpreta a resposta e executa ações apropriadas, como exibir a 
+             página solicitada ou lidar com erros.
+        </li>
+        <li><strong>Processamento do Lado do Cliente:</strong>
+            No lado do cliente, o navegador interpreta o conteúdo da resposta e 
+            pode executar scripts JavaScript, renderizar HTML, processar folhas de
+             estilo (CSS) e interagir com o usuário.
+        </li>
+
+    </ol>
+    <img src="Figura-2-Cenario-proposto-arquitetura-cliente-servidor.png"
+     alt="Comunicação cliente x servidor">
+    
+     <h3 id="referencias">Referências</h3>
+     <ul>
+        <li><a href="teste.html">Aplicações das tags html</a></li>
+     </ul>
+     
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
